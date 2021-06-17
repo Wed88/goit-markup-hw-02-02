@@ -1,0 +1,81 @@
+/* переменные */
+:root {
+  --main-font: font-family: 'Roboto', sans-serif;
+  --second-font: font-family: 'Raleway', sans-serif;
+  --main-color:  #212121;
+  --second-color: #757575;
+  --accent-color: #2196F3;
+  --main-weight: 700
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    font-weight: var(--main-weight)
+}
+
+/* header */
+
+.logo-web{
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.nav-link{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-link:hover,.nav-link:active,.nav-link:focus,.mail-link:hover, .tel-link:hover{
+    color: var(--accent-color);
+}
+
+.mail-link, .tel-link{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
