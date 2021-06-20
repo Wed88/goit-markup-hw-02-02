@@ -166,3 +166,38 @@ body {
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
 }
+
+/* Main Portfolio */
+
+.button-filter {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button-filter:hover,
+.button-filter:active,
+.button-filter:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+
+.subject-portfolio {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.desk-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
